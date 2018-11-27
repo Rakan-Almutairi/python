@@ -10,7 +10,7 @@ readonly_fields = ['image_tag']
 
 class ProductAdmin(admin.ModelAdmin):
     model = Product
-    list_display = ['name', 'price', 'quantity']
+    list_display = ['name', 'price', 'quantity', 'image']
     list_filter = ['price']
 
 
