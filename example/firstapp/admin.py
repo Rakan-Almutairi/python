@@ -1,23 +1,20 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Product, Cat
+from .models import Car, CarType
+
 
 # Register your models here.
-fields = ['image_tag']
-readonly_fields = ['image_tag']
-
-
-class ProductAdmin(admin.ModelAdmin):
-    model = Product
+class CarAdmin(admin.ModelAdmin):
+    model = Car
     list_display = ['name', 'price', 'quantity', 'image']
     list_filter = ['price']
 
 
-class CategoryAdmin(admin.ModelAdmin):
-    model = Product
+class CarTypeAdmin(admin.ModelAdmin):
+    model = CarType
     list_display = ['name']
 
 
-admin.site.register(Cat, CategoryAdmin)
-admin.site.register(Product, ProductAdmin)
+admin.site.register(CarType, CarTypeAdmin)
+admin.site.register(Car, CarAdmin)
