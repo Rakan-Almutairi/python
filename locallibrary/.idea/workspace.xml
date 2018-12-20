@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa0a92b2-bd38-4f04-83ac-2bfb7f16dba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/locallibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/locallibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/migrations/0002_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/migrations/0002_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/migrations/0003_product_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/migrations/0003_product_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/second_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/second_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-    </list>
+    <list default="true" id="aa0a92b2-bd38-4f04-83ac-2bfb7f16dba3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -270,7 +247,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19556025" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35409835" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
