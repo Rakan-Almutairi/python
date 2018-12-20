@@ -5,9 +5,12 @@
     <title>{{ title }}</title>
 </head>
 <body>
-<p>Test</p>
-<a href="{% url 'second-page' %}">Second page</a>
+<p>product Details</p>
+{% for item in product %}
+{{ item.name }}<br>
+    {{ item.price }}<br>
+    {{ item.category}}<br>
 
-product id: {{ product }}
+{% endfor %}
 </body>
 </html>
