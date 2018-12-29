@@ -1,6 +1,7 @@
 from django.forms import ModelForm, TextInput
 from .models import Product
-from django import forms
+# from django import forms
+
 
 # Create the form class.
 class ProductForm(ModelForm):
@@ -18,9 +19,10 @@ class ProductForm(ModelForm):
         help_texts = {
             'name': 'name for product must be string'
         }
-        error_messages ={
+        error_messages = {
 
         }
+
     def clean(self):
         cleaned_data = super(ProductForm, self).clean()
         name = cleaned_data.get('name')

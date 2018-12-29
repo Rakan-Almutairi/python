@@ -33,8 +33,8 @@ def second_page(request):
 
 
 def add_product(request):
-    product = Product.objects.get(id=5)
-    form = ProductForm(instance=product)
+
+    form = ProductForm
     if request.method == 'POST':
         form = form(request.POST)
         if form.is_valid:
@@ -46,9 +46,10 @@ def add_product(request):
     context = {'form': form}
     return render(request, 'add-product.html', context)
 
+
 def edit_product(request, id):
     product = Product.objects.get(id=5)
-    form = ProductForm(instance= product)
+    form = ProductForm(instance=product)
     if request.method == 'POST':
         form = form(request.POST)
         if form.is_valid:
